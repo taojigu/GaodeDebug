@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1290E492275D77ACCD4552E8 /* libPods-GaodeDebugUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB8141902E567ED14F20F71 /* libPods-GaodeDebugUITests.a */; };
+		21F78A8D20D093C2DE2D5A7E /* libPods-GaodeDebugTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E8E2637AEF50E347F8459D /* libPods-GaodeDebugTests.a */; };
+		3CAC730B2191881B00931DAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC730A2191881B00931DAF /* AppDelegate.m */; };
+		3CAC730E2191881B00931DAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC730D2191881B00931DAF /* ViewController.m */; };
+		3CAC73112191881B00931DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAC730F2191881B00931DAF /* Main.storyboard */; };
+		3CAC73132191881D00931DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAC73122191881D00931DAF /* Assets.xcassets */; };
+		3CAC73162191881D00931DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAC73142191881D00931DAF /* LaunchScreen.storyboard */; };
+		3CAC73192191881D00931DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC73182191881D00931DAF /* main.m */; };
+		3CAC73232191881D00931DAF /* GaodeDebugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC73222191881D00931DAF /* GaodeDebugTests.m */; };
+		3CAC732E2191881D00931DAF /* GaodeDebugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC732D2191881D00931DAF /* GaodeDebugUITests.m */; };
+		3CAC733D219189C700931DAF /* DemoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC733C219189C700931DAF /* DemoMapViewController.m */; };
+		3CAC734021918ED100931DAF /* MAMapView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC733F21918ED000931DAF /* MAMapView+Util.m */; };
+		4227E4183B3F71F4BFECD32C /* libPods-GaodeDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD33A210C1901FF52E56839 /* libPods-GaodeDebug.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CAC731F2191881D00931DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAC72FE2191881B00931DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAC73052191881B00931DAF;
+			remoteInfo = GaodeDebug;
+		};
+		3CAC732A2191881D00931DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAC72FE2191881B00931DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAC73052191881B00931DAF;
+			remoteInfo = GaodeDebug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CBB84FF6B7A426A46F5998 /* Pods-GaodeDebugUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaodeDebugUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaodeDebugUITests/Pods-GaodeDebugUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C844BBD338B5D2BDF4AB228 /* Pods-GaodeDebugTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaodeDebugTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaodeDebugTests/Pods-GaodeDebugTests.release.xcconfig"; sourceTree = "<group>"; };
+		1BD33A210C1901FF52E56839 /* libPods-GaodeDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaodeDebug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23342F480B2DE815B9460BED /* Pods-GaodeDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaodeDebug.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaodeDebug/Pods-GaodeDebug.release.xcconfig"; sourceTree = "<group>"; };
+		2D8ACA209CB32AAB3D547727 /* Pods-GaodeDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaodeDebug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaodeDebug/Pods-GaodeDebug.debug.xcconfig"; sourceTree = "<group>"; };
+		3CAC73062191881B00931DAF /* GaodeDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaodeDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAC73092191881B00931DAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CAC730A2191881B00931DAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CAC730C2191881B00931DAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CAC730D2191881B00931DAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CAC73102191881B00931DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CAC73122191881D00931DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CAC73152191881D00931DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CAC73172191881D00931DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAC73182191881D00931DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CAC731E2191881D00931DAF /* GaodeDebugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaodeDebugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAC73222191881D00931DAF /* GaodeDebugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaodeDebugTests.m; sourceTree = "<group>"; };
+		3CAC73242191881D00931DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAC73292191881D00931DAF /* GaodeDebugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaodeDebugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAC732D2191881D00931DAF /* GaodeDebugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaodeDebugUITests.m; sourceTree = "<group>"; };
+		3CAC732F2191881D00931DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAC733B219189C700931DAF /* DemoMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoMapViewController.h; sourceTree = "<group>"; };
+		3CAC733C219189C700931DAF /* DemoMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMapViewController.m; sourceTree = "<group>"; };
+		3CAC733E21918ED000931DAF /* MAMapView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MAMapView+Util.h"; sourceTree = "<group>"; };
+		3CAC733F21918ED000931DAF /* MAMapView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MAMapView+Util.m"; sourceTree = "<group>"; };
+		80508135E173662A3622A6C2 /* Pods-GaodeDebugUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaodeDebugUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaodeDebugUITests/Pods-GaodeDebugUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80E8E2637AEF50E347F8459D /* libPods-GaodeDebugTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaodeDebugTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB8141902E567ED14F20F71 /* libPods-GaodeDebugUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaodeDebugUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7D5997BEB95B3A7EFF92C7 /* Pods-GaodeDebugTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaodeDebugTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaodeDebugTests/Pods-GaodeDebugTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAC73032191881B00931DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4227E4183B3F71F4BFECD32C /* libPods-GaodeDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAC731B2191881D00931DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F78A8D20D093C2DE2D5A7E /* libPods-GaodeDebugTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAC73262191881D00931DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1290E492275D77ACCD4552E8 /* libPods-GaodeDebugUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A637439B246027A666D0A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D8ACA209CB32AAB3D547727 /* Pods-GaodeDebug.debug.xcconfig */,
+				23342F480B2DE815B9460BED /* Pods-GaodeDebug.release.xcconfig */,
+				FF7D5997BEB95B3A7EFF92C7 /* Pods-GaodeDebugTests.debug.xcconfig */,
+				0C844BBD338B5D2BDF4AB228 /* Pods-GaodeDebugTests.release.xcconfig */,
+				07CBB84FF6B7A426A46F5998 /* Pods-GaodeDebugUITests.debug.xcconfig */,
+				80508135E173662A3622A6C2 /* Pods-GaodeDebugUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CAC72FD2191881B00931DAF = {
+			isa = PBXGroup;
+			children = (
+				3CAC73082191881B00931DAF /* GaodeDebug */,
+				3CAC73212191881D00931DAF /* GaodeDebugTests */,
+				3CAC732C2191881D00931DAF /* GaodeDebugUITests */,
+				3CAC73072191881B00931DAF /* Products */,
+				13A637439B246027A666D0A2 /* Pods */,
+				514FCEBC820CD8C2C1290896 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAC73072191881B00931DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAC73062191881B00931DAF /* GaodeDebug.app */,
+				3CAC731E2191881D00931DAF /* GaodeDebugTests.xctest */,
+				3CAC73292191881D00931DAF /* GaodeDebugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAC73082191881B00931DAF /* GaodeDebug */ = {
+			isa = PBXGroup;
+			children = (
+				3CAC733E21918ED000931DAF /* MAMapView+Util.h */,
+				3CAC733F21918ED000931DAF /* MAMapView+Util.m */,
+				3CAC73092191881B00931DAF /* AppDelegate.h */,
+				3CAC730A2191881B00931DAF /* AppDelegate.m */,
+				3CAC730C2191881B00931DAF /* ViewController.h */,
+				3CAC730D2191881B00931DAF /* ViewController.m */,
+				3CAC730F2191881B00931DAF /* Main.storyboard */,
+				3CAC73122191881D00931DAF /* Assets.xcassets */,
+				3CAC73142191881D00931DAF /* LaunchScreen.storyboard */,
+				3CAC73172191881D00931DAF /* Info.plist */,
+				3CAC73182191881D00931DAF /* main.m */,
+				3CAC733B219189C700931DAF /* DemoMapViewController.h */,
+				3CAC733C219189C700931DAF /* DemoMapViewController.m */,
+			);
+			path = GaodeDebug;
+			sourceTree = "<group>";
+		};
+		3CAC73212191881D00931DAF /* GaodeDebugTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAC73222191881D00931DAF /* GaodeDebugTests.m */,
+				3CAC73242191881D00931DAF /* Info.plist */,
+			);
+			path = GaodeDebugTests;
+			sourceTree = "<group>";
+		};
+		3CAC732C2191881D00931DAF /* GaodeDebugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAC732D2191881D00931DAF /* GaodeDebugUITests.m */,
+				3CAC732F2191881D00931DAF /* Info.plist */,
+			);
+			path = GaodeDebugUITests;
+			sourceTree = "<group>";
+		};
+		514FCEBC820CD8C2C1290896 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BD33A210C1901FF52E56839 /* libPods-GaodeDebug.a */,
+				80E8E2637AEF50E347F8459D /* libPods-GaodeDebugTests.a */,
+				AEB8141902E567ED14F20F71 /* libPods-GaodeDebugUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAC73052191881B00931DAF /* GaodeDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAC73322191881D00931DAF /* Build configuration list for PBXNativeTarget "GaodeDebug" */;
+			buildPhases = (
+				747497399CA3169C61BEA9A9 /* [CP] Check Pods Manifest.lock */,
+				3CAC73022191881B00931DAF /* Sources */,
+				3CAC73032191881B00931DAF /* Frameworks */,
+				3CAC73042191881B00931DAF /* Resources */,
+				47FFBEE2827F1EC5761DE830 /* [CP] Embed Pods Frameworks */,
+				D177D3EF8F602718BBFFB76C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaodeDebug;
+			productName = GaodeDebug;
+			productReference = 3CAC73062191881B00931DAF /* GaodeDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CAC731D2191881D00931DAF /* GaodeDebugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAC73352191881D00931DAF /* Build configuration list for PBXNativeTarget "GaodeDebugTests" */;
+			buildPhases = (
+				F3B87DCBC105DD2EB0CE4BE9 /* [CP] Check Pods Manifest.lock */,
+				3CAC731A2191881D00931DAF /* Sources */,
+				3CAC731B2191881D00931DAF /* Frameworks */,
+				3CAC731C2191881D00931DAF /* Resources */,
+				417B0FABF9EB68395522A892 /* [CP] Embed Pods Frameworks */,
+				5D3E988C0B857FCECD374960 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAC73202191881D00931DAF /* PBXTargetDependency */,
+			);
+			name = GaodeDebugTests;
+			productName = GaodeDebugTests;
+			productReference = 3CAC731E2191881D00931DAF /* GaodeDebugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CAC73282191881D00931DAF /* GaodeDebugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAC73382191881D00931DAF /* Build configuration list for PBXNativeTarget "GaodeDebugUITests" */;
+			buildPhases = (
+				9F9498683D84A66A89689BB8 /* [CP] Check Pods Manifest.lock */,
+				3CAC73252191881D00931DAF /* Sources */,
+				3CAC73262191881D00931DAF /* Frameworks */,
+				3CAC73272191881D00931DAF /* Resources */,
+				1807AD1D4BA5156C7234FCBE /* [CP] Embed Pods Frameworks */,
+				6A530E2E4FABDCA09587DD3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAC732B2191881D00931DAF /* PBXTargetDependency */,
+			);
+			name = GaodeDebugUITests;
+			productName = GaodeDebugUITests;
+			productReference = 3CAC73292191881D00931DAF /* GaodeDebugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAC72FE2191881B00931DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "顾吉涛";
+				TargetAttributes = {
+					3CAC73052191881B00931DAF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3CAC731D2191881D00931DAF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3CAC73052191881B00931DAF;
+					};
+					3CAC73282191881D00931DAF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3CAC73052191881B00931DAF;
+					};
+				};
+			};
+			buildConfigurationList = 3CAC73012191881B00931DAF /* Build configuration list for PBXProject "GaodeDebug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CAC72FD2191881B00931DAF;
+			productRefGroup = 3CAC73072191881B00931DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAC73052191881B00931DAF /* GaodeDebug */,
+				3CAC731D2191881D00931DAF /* GaodeDebugTests */,
+				3CAC73282191881D00931DAF /* GaodeDebugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAC73042191881B00931DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAC73162191881D00931DAF /* LaunchScreen.storyboard in Resources */,
+				3CAC73132191881D00931DAF /* Assets.xcassets in Resources */,
+				3CAC73112191881B00931DAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAC731C2191881D00931DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAC73272191881D00931DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1807AD1D4BA5156C7234FCBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaodeDebugUITests/Pods-GaodeDebugUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		417B0FABF9EB68395522A892 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaodeDebugTests/Pods-GaodeDebugTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47FFBEE2827F1EC5761DE830 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaodeDebug/Pods-GaodeDebug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3E988C0B857FCECD374960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaodeDebugTests/Pods-GaodeDebugTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A530E2E4FABDCA09587DD3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaodeDebugUITests/Pods-GaodeDebugUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747497399CA3169C61BEA9A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaodeDebug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9498683D84A66A89689BB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaodeDebugUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D177D3EF8F602718BBFFB76C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GaodeDebug/Pods-GaodeDebug-resources.sh",
+				"${PODS_ROOT}/AMap2DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaodeDebug/Pods-GaodeDebug-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B87DCBC105DD2EB0CE4BE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaodeDebugTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAC73022191881B00931DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAC733D219189C700931DAF /* DemoMapViewController.m in Sources */,
+				3CAC730E2191881B00931DAF /* ViewController.m in Sources */,
+				3CAC734021918ED100931DAF /* MAMapView+Util.m in Sources */,
+				3CAC73192191881D00931DAF /* main.m in Sources */,
+				3CAC730B2191881B00931DAF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAC731A2191881D00931DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAC73232191881D00931DAF /* GaodeDebugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAC73252191881D00931DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAC732E2191881D00931DAF /* GaodeDebugUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CAC73202191881D00931DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAC73052191881B00931DAF /* GaodeDebug */;
+			targetProxy = 3CAC731F2191881D00931DAF /* PBXContainerItemProxy */;
+		};
+		3CAC732B2191881D00931DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAC73052191881B00931DAF /* GaodeDebug */;
+			targetProxy = 3CAC732A2191881D00931DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CAC730F2191881B00931DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAC73102191881B00931DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CAC73142191881D00931DAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAC73152191881D00931DAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CAC73302191881D00931DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CAC73312191881D00931DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CAC73332191881D00931DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8ACA209CB32AAB3D547727 /* Pods-GaodeDebug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = GaodeDebug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.GaodeDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CAC73342191881D00931DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23342F480B2DE815B9460BED /* Pods-GaodeDebug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = GaodeDebug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.GaodeDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CAC73362191881D00931DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7D5997BEB95B3A7EFF92C7 /* Pods-GaodeDebugTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = GaodeDebugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.GaodeDebugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaodeDebug.app/GaodeDebug";
+			};
+			name = Debug;
+		};
+		3CAC73372191881D00931DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C844BBD338B5D2BDF4AB228 /* Pods-GaodeDebugTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = GaodeDebugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.GaodeDebugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaodeDebug.app/GaodeDebug";
+			};
+			name = Release;
+		};
+		3CAC73392191881D00931DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CBB84FF6B7A426A46F5998 /* Pods-GaodeDebugUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = GaodeDebugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.GaodeDebugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaodeDebug;
+			};
+			name = Debug;
+		};
+		3CAC733A2191881D00931DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80508135E173662A3622A6C2 /* Pods-GaodeDebugUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = GaodeDebugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.GaodeDebugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaodeDebug;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAC73012191881B00931DAF /* Build configuration list for PBXProject "GaodeDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAC73302191881D00931DAF /* Debug */,
+				3CAC73312191881D00931DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAC73322191881D00931DAF /* Build configuration list for PBXNativeTarget "GaodeDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAC73332191881D00931DAF /* Debug */,
+				3CAC73342191881D00931DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAC73352191881D00931DAF /* Build configuration list for PBXNativeTarget "GaodeDebugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAC73362191881D00931DAF /* Debug */,
+				3CAC73372191881D00931DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAC73382191881D00931DAF /* Build configuration list for PBXNativeTarget "GaodeDebugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAC73392191881D00931DAF /* Debug */,
+				3CAC733A2191881D00931DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CAC72FE2191881B00931DAF /* Project object */;
+}

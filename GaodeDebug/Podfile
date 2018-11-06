@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GaodeDebug' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for GaodeDebug
+  
+  pod 'AMap2DMap'#,'5.6.0',:inhibit_warnings => true #2D地图SDK(2D地图和3D地图不能同时使用)
+  pod 'AMapSearch'#,'5.7.0', :inhibit_warnings => true #搜索服务SDK
+
+  target 'GaodeDebugTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GaodeDebugUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
